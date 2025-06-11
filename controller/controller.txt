@@ -49,11 +49,104 @@ let altura = 162;
      } 
 
      // Questao2-> Ganhar na mega sena é o sonho de todo brasileiro. Diariamente milhares de pessoas apostam sonhando com a chance de mudar de vida. Faça um codigo que verifique os numeros apostados e os numeros sorteados e diga se o apostador ganhou na quadra, quina ou sena.
+     // declarando ass variaveis dos numeeros sortedos
+     let numerosorteado1 = 48; 
+     let numerosorteado2 = 56;
+     let numerosorteado3 = 13;
+     let numerosorteado4 = 38;
+     let numerosorteado5 = 32;
+     let numerosorteado6 = 21;
+     // declarando as variaveis dos numeros apostados  
+     let numeroapostado1 = 13; 
+     let numeroapostado2 = 32;
+     let numeroapostado3 = 56;
+     let numeroapostado4 = 21;
+     let numeroapostado5 = 38;
+     let numeroapostado6 = 48;
+     
+     // verifiaçao de dezena sorteada
+     let dezeena1;
+     let dezeena2;
+     let dezeena3;
+     let dezeena4;
+     let dezeena5;
+     let dezeena6;
      
      
+    //verificando o numero1
+     if (numeroapostado1 == numerosorteado1 || 
+         numeroapostado1 == numerosorteado2 ||
+         numeroapostado1 == numerosorteado3 ||
+         numeroapostado1 == numerosorteado4 ||
+         numeroapostado1 == numerosorteado5 ||
+         numeroapostado1 == numerosorteado6 
+         ){
+         
+         dezena1 = 0;
+         console.log(dezena1);
+         
+     }
      
+     //verificando o numero2
+     if(numeroapostado2 == numerosorteado1 || 
+         numeroapostado2 == numerosorteado2 ||
+         numeroapostado2 == numerosorteado3 ||
+         numeroapostado2 == numerosorteado4 ||
+         numeroapostado2 == numerosorteado5 ||
+         numeroapostado2 == numerosorteado6 ){
      
+        dezena2 = 0;
+         console.log(dezena2);
+         }
+         
+          //verificando o numero3
+     if (numeroapostado3 == numerosorteado1 || 
+         numeroapostado3 == numerosorteado2 ||
+         numeroapostado3 == numerosorteado3 ||
+         numeroapostado3 == numerosorteado4 ||
+         numeroapostado3 == numerosorteado5 ||
+         numeroapostado3 == numerosorteado6 ){
+             
+      dezena3 = 0;
+         console.log(dezena3);
      
-     
-     
-     
+         }
+          //verificando o numero4
+     if (numeroapostado4 == numerosorteado1 || 
+         numeroapostado4 == numerosorteado2 ||
+         numeroapostado4 == numerosorteado3 ||
+         numeroapostado4 == numerosorteado4 ||
+         numeroapostado4 == numerosorteado5 ||
+         numeroapostado4 == numerosorteado6 ){
+             
+            dezena4 = 0;
+         console.log(dezena4);
+         
+         }
+         //verificando o numero5
+     if (numeroapostado5 == numerosorteado1 || 
+         numeroapostado5 == numerosorteado2 ||
+         numeroapostado5 == numerosorteado3 ||
+         numeroapostado5 == numerosorteado4 ||
+         numeroapostado5 == numerosorteado5 ||
+         numeroapostado5 == numerosorteado6 ){
+             
+            dezena5 = 0;
+         console.log(dezena5);
+         
+         }
+          //verificando o numero6
+     if (numeroapostado6 == numerosorteado1 || 
+         numeroapostado6 == numerosorteado2 ||
+         numeroapostado6 == numerosorteado3 ||
+         numeroapostado6 == numerosorteado4 ||
+         numeroapostado6 == numerosorteado5 ||
+         numeroapostado6 == numerosorteado6 ){
+             
+           dezena6 = 0;
+         console.log(dezena6);
+         
+         }
+         
+         
+         
